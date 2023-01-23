@@ -1,0 +1,17 @@
+**********************************************************
+*      MyLogic V6.1 SPICE netlist generator
+*      Cell Name :: nand
+*      Flatten Extraction for Berkely Spice 3
+*      Generated Date :: 2022/11/29 21:54.52
+**********************************************************
+*.GLOBAL A B Y
+*.GLOBAL GND VDD
+**********************************************************
+MT_I0 VDD B Y VDD PMOS L=2.8U W=2.4U
+MT_I1 VDD A Y VDD PMOS L=2.8U W=2.4U
+MT_I2 Y A I2_NNS GND NMOS L=2.8U W=1.2U
+MT_I3 I2_NNS B GND GND NMOS L=2.8U W=1.2U
+**********************************************************
+VDD VDD 0 DC 5
+VSS GND 0 DC 0
+**********************************************************

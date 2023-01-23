@@ -1,0 +1,4 @@
+// This context file was created by MyCAD Design Manager
+// 
+LIBRARY circuit .\circuit.lib
+LIBRARY Analog ..\..\..\..\..\MyCADPro_TE\Library\MyAnalog\Analog.lib

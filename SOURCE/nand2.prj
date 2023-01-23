@@ -1,0 +1,5 @@
+[CHIP]
+TECH_FILE	C:\MyCADPro_TE\Demo\IDS\MyCell\Layout\SCMOS_SCN4ME_SUBM.TEC
+LIB		1	C:\MyCADPro_TE\Demo\IDS\MyCell\Layout\Mycell.prj	1247223654
+[COMMON]
+CELL	nand2	nand2._00
